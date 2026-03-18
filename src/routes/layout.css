@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+
+@font-face {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url('/Lato-Regular.ttf') format('truetype');
+}
+
+@theme {
+	--font-lato: 'Lato', sans-serif;
+}
